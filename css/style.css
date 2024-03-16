@@ -1,0 +1,63 @@
+.wrapper {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #26297a;
+  background-image: url("../img/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  position: relative;
+}
+.wrapper header {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.wrapper main {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.wrapper main img {
+  width: 200px;
+  height: 200px;
+}
+.wrapper footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.wrapper .profile {
+  margin-top: 20px;
+  border-radius: 13px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.wrapper .profile .profile-info .profile-img img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+.wrapper .profile .profile-info .profile-stats {
+  display: flex;
+  flex-direction: column;
+}
+.wrapper .profile .profile-info .profile-stats span {
+  color: #26297a;
+  position: relative;
+  top: 1px;
+}/*# sourceMappingURL=style.css.map */
+
+::-webkit-scrollbar {
+  width: 2px;               /* ширина scrollbar */
+}
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.5);        /* цвет дорожки */
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.5);   /* цвет плашки */
+  border-radius: 20px;       /* закругления плашки */
+  background: rgba(0, 0, 0, 0.5);   /* padding вокруг плашки */
+}
